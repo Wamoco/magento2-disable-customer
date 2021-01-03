@@ -1,7 +1,7 @@
 {
     "name": "wamoco/magento2-disable-customer",
     "description": "Magento 2 Module to disable customers manually",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "magento2-module",
     "require": {
         "wamoco/magento2-common" : ">=1.0.0"
