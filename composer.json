@@ -1,6 +1,6 @@
 {
     "name": "wamoco/magento2-disable-customer",
-    "description": "TBD",
+    "description": "Magento 2 Module to disable customers manually",
     "version": "1.0.0",
     "type": "magento2-module",
     "require": {
@@ -11,7 +11,7 @@
             "Source/registration.php"
         ],
         "psr-4": {
-            "Wamoco\\DisableCustomer\\": ""
+            "Wamoco\\DisableCustomer\\": "Source/"
         }
     }
 }
