@@ -23,7 +23,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     public function isCustomerDisabled(\Magento\Customer\Model\Customer $customer)
     {
         $attrCode = \Wamoco\DisableCustomer\Setup\Patch\Data\AddAttribute::ATTRIBUTE_CODE;
-        if ($customer->get($attrCode)) {
+        if ($customer->getData($attrCode)) {
             return true;
         }
         return false;
